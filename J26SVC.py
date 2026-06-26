@@ -6,7 +6,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
 # Load Dataset
-data = pd.read_csv("parkinsons.csv")
+data = pd.read_csv("J26parkinsons.csv")
 
 # Remove name column
 X = data.drop(columns=["name", "status"], axis=1)
